@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/scrollView1"
+		android:background="#ffdc6b07">
+	<LinearLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/background_light">
+		<TextView
+			p1:text="Sua situação é de magreza!"
+			p1:textAppearance="?android:attr/textAppearanceMedium"
+			xmlns:p1="http://schemas.android.com/apk/res/android"
+			p1:layout_width="match_parent"
+			p1:layout_height="wrap_content"
+			p1:id="@+id/textView6"
+			android:textColor="#ff0b0a0a"/>
+		<TextView
+			android:text="O que comer para ganhar peso?
+Invista em alimentos calóricos, mas nutritivos. É o caso do azeite extravirgem que é rico em gorduras boas, as monoinsaturadas, e assim ajuda a regular o colesterol, protege o coração e o cérebro, previne o diabetes, entre outros benefícios. Opte pelas carnes magras.
+O consumo de proteínas, carnes magras e leguminosas também é importante, porém é preciso certificar-se que não está havendo uma ingestão excessiva que possa sobrecarregar os rins e o fígado."
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/textView1"
+			android:textColor="#ff0b0a0a"
+			android:textAlignment="viewStart"
+			android:elegantTextHeight="true"
+			android:textStyle="italic"
+			android:layout_marginBottom="10.0dp" />
+		<TextView
+			android:text="Passo 1: Alimentação."
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/textView3"
+			android:textColor="@android:color/background_dark"
+			android:textStyle="bold"
+			android:layout_marginTop="0.0dp" />
+		<ImageButton
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/imgAlimentacao" />
+		<TextView
+			android:text="Passo 2: Ganho de massa."
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/textView4"
+			android:textColor="@android:color/background_dark"
+			android:textStyle="bold" />
+		<ImageButton
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/imgGanhoDeMassa" />
+		<TextView
+			android:text="Passo 3: Definição."
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/textView5"
+			android:textColor="@android:color/background_dark"
+			android:textStyle="bold" />
+		<ImageButton
+			android:src="@android:drawable/ic_menu_gallery"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/imgExercicios" />
+	</LinearLayout>
+</ScrollView>

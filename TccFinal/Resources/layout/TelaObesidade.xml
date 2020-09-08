@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/scrollView1">
+<LinearLayout
+	
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@android:color/background_light">
+	
+		<TextView
+			android:text="Sua situação é de Obesidade!"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/textView2"
+			android:textColor="@android:color/background_dark"
+			android:textStyle="bold|italic" />
+		<TextView
+			android:text="O melhor tratamento para a obesidade é feito com dieta para emagrecer e com a prática regular de exercícios físicos, entretanto, quando isto não é possível, existem opções de remédios para ajudar a reduzir o apetite e a compulsão alimentar, como a Sibutramina e o Orlistat, ou, em último caso, a cirurgia bariátrica, que diminui a área de absorção dos alimentos pelo trato gastrointestinal.
+O primeiro passo, tanto para tratar, como prevenir a obesidade, deve ser sempre o controle do consumo de calorias, calculado de acordo com a alimentação habitual e com a quantidade de peso que se deseja perder, de preferência com uma dieta rica em frutas, legumes, verduras, fibras e água, conforme orientada pelo nutricionista. Para saber como deve ser uma dieta ideal para emagrecer, confira a nossa dieta para emagrecer rápido e saudável."
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:id="@+id/textView1"
+			android:textColor="#ff0b0a0a"
+			android:textAlignment="viewStart"
+			android:elegantTextHeight="true"
+			android:textStyle="italic"
+			android:layout_marginBottom="10.0dp" />
+	<TextView
+		android:text="Passo 1: Alimentação."
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3"
+		android:textColor="@android:color/background_dark"
+		android:textStyle="bold" />
+	<ImageButton
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/imgAlimentacao" />
+	<TextView
+		android:text="Passo 2: perca de massa."
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView4"
+		android:textColor="@android:color/background_dark"
+		android:textStyle="bold" />
+	<ImageButton
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/imgGanhoDeMassa" />
+	<TextView
+		android:text="Passo 3: Definição."
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView5"
+		android:textColor="@android:color/background_dark"
+		android:textStyle="bold" />
+	<ImageButton
+		android:src="@android:drawable/ic_menu_gallery"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/imgDefinicao" />
+
+</LinearLayout>
+	</ScrollView>
